@@ -39,9 +39,8 @@ public:
         Window
     };
     enum CursorMode {
-        Any = 0,
-        Hidden,
-        Embedded,
+        Hidden = 1,
+        Embedded = 2,
         Metadata = 4
     };
 
